@@ -1,9 +1,13 @@
+/*===========================================
+            App.js
+===========================================*/
 import React from 'react';
+import Counter from './components/counter';
 
 function App() {
 	return (
 		<>
-			<h1>App</h1>
+			<Counter/>
 		</>
 	);
 }
