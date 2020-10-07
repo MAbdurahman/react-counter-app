@@ -2,12 +2,12 @@
             App.js
 ===========================================*/
 import React from 'react';
-import Counter from './components/counter';
+import Counters from './components/counters';
 
 function App() {
 	return (
 		<>
-			<Counter/>
+			<Counters/>
 		</>
 	);
 }

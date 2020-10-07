@@ -9,11 +9,6 @@ import App from './App';
 // import Counter from './components/counter';
 
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />,document.getElementById('root'));
 
 
